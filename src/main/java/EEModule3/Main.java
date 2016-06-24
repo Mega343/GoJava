@@ -11,4 +11,5 @@ public class Main {
         new Thread(new Worker(semaphore, 15)).start();
         new Thread(new Worker(semaphore, 1)).start();
     }
+
 }
